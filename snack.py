@@ -81,14 +81,17 @@ fog.hideturtle()
 fog.goto(0, 260) 
 fog.write(f"Score: {me}  High Score: {you}", align="center", font=("Courier", 24, "normal"))
 
+# uh
+try:
+    with open("DONTTOUCHME.txt", "r") as f:
+        you = int(f.read())
+except FileNotFoundError:
+    you = 0
+    with open("DONTTOUCHME.txt", "w") as f:
+        f.write("0")
+
 while True:
     bog.update()
-    try:
-        with open("DONTTOUCHME.txt", "r") as f:
-            you = int(f.read())
-    except:
-        you = 0
-    
     # --- 1. WALL COLLISION CHECK ---
     if rog.xcor() > 290 or rog.xcor() < -290 or rog.ycor() > 290 or rog.ycor() < -290:
         time.sleep(1)
