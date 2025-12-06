@@ -15,8 +15,12 @@ Basically just snake except it's just turtle from Python and uhh it just is uh y
 2. Clone this repository
 ```git clone https://github.com/irialovington/snake
 cd snake```
-3. Run the game
-```python main.py```
+3. Make a folder for them to exist in.
+4. Open Command Terminal (Or Powershell) and start the game there.
+(e.g 
+```cd C:\Iria\coding\fun gams
+python snack.py``
+)
 
 ykw i give up this is just snake, i bet my P1020 that everyone knows how to play snake!
 this is under apache 2.0 license, read LICENSE.txt for more details
