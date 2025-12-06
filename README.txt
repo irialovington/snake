@@ -12,7 +12,7 @@ Basically just snake except it's just turtle from Python and uhh it just is uh y
 
 #  How To Start?
 1. Update the latest version of Python
-2. Clone this repository"
+2. Clone this repository
 ```git clone https://github.com/irialovington/snake
 cd snake```
 3. Run the game
