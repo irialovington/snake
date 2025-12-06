@@ -21,6 +21,7 @@ cd snake```
 ```cd C:\Iria\coding\fun gams
 python snack.py``
 )
+** NOTE : ** pls do not make ur job harder by double clicking on the file ok? just run it in command terminal like a good user.. :)
 
 ykw i give up this is just snake, i bet my P1020 that everyone knows how to play snake!
 this is under apache 2.0 license, read LICENSE.txt for more details
